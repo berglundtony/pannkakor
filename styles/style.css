@@ -1,0 +1,87 @@
+:root {
+  --primary-font: Open Sans, Open Sans MT, Calibri, Trebuchet MS, sans-serif;
+}
+
+body {
+  background-color: rgba(161, 0, 0, 0.3);
+}
+
+main {
+  font-family: var(--primary-font);
+  background-color: #fff;
+  height: 90%;
+  margin-left: 1rem;
+  padding: 1rem;
+}
+
+h1 {
+  color: #A10000;
+  font-weight: 700;
+  font-family: var(--primary-font);
+  font-size: 2.8rem;
+  margin-top: 1.25rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+#content {
+  padding: 1.9rem;
+}
+
+#ingress {
+  font-size: 1.2rem;
+  height: auto;
+  margin-bottom: 1.8rem;
+  padding: 15px;
+  width: 98%;
+  background-color: #ececec;
+}
+
+.container {
+  --bs-gutter-x: 0;
+}
+
+.crop-container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+.crop-container img {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.serving-container {
+  width: 98%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  margin: -10px 10px 0 0;
+}
+.serving-container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 450px;
+  padding: 15px 2px;
+}
+
+ul {
+  margin-bottom: 2rem;
+}
+
+li {
+  font-family: var(--primary-font);
+  font-size: 1.45rem;
+  line-height: 1.7rem;
+}/*# sourceMappingURL=style.css.map */
