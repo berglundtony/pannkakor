@@ -6,15 +6,17 @@
 }
 
 body {
-    background-color: var(--background-color)
+    background-color: var(--background-color);
+    margin-bottom: 5%;
 }
 
 main {
     font-family: var(--primary-font);
     background-color: #fff;
     height: 90%;
-    margin-left: 1rem;
-    padding: 1rem;
+}
+article{
+        padding: 2rem;
 }
 
 h1 {
@@ -34,10 +36,6 @@ h2 {
     margin-top: 10px;
 }
 
-#content {
-    padding: 1.9rem;
-}
-
 #ingress {
     font-size: 1.2rem;
     height: auto;
@@ -51,7 +49,7 @@ h2 {
     --bs-gutter-x: 0;
 }
 
-.crop-container {
+.crop-container{
     width: 100%;
     height: auto;
     overflow: hidden;
@@ -62,7 +60,8 @@ h2 {
     -o-object-fit: cover;
     object-fit: cover;
     -o-object-position: center;
-    object-position: center
+    object-position: center;
+   
  }
 }
 
@@ -71,13 +70,26 @@ h2 {
     height: auto;
     overflow: hidden;
     position: relative;
-    margin: -10px 10px 0 0;
+    margin-left:-15px;
  img {
     -o-object-fit: cover;
     object-fit: cover;
     height: 450px;
-    padding: 15px 2px;
+    padding-inline: 15px;
+    margin-top: 15px;
     }
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    /* Förhindra linjeomslag */
+    border: 0;
 }
 
 ul {
